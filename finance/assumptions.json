@@ -1,0 +1,364 @@
+{
+  "version": "0.1.0",
+  "as_of": "2026-10-21",
+  "currency": "CAD",
+  "price_basis_year": 2026,
+  "unit": "millions",
+  "estimate_type": "Original low-confidence screening assumptions; not vendor quotations or a bankable feasibility study",
+  "basis": "Gross cash envelopes before uncommitted customer revenue, grants, tax credits, or debt. Equipment and operating runway are both included. The low and high cases are distinct scopes, not confidence intervals.",
+  "default_grants_cad_m": 0,
+  "default_revenue_credit_cad_m": 0,
+  "initial_companies": [
+    {
+      "id": "wafer",
+      "name": "Newfoundland Wafer Company",
+      "plan": "companies/01-wafer-company.md",
+      "scope": "Qualified wafer distribution and outsourced services; local-resource investigation does not establish a mine or refinery",
+      "runway_months": [
+        24,
+        24
+      ],
+      "first_paid_customer_months": [
+        6,
+        18
+      ],
+      "costs_cad_m": {
+        "capital": [
+          0.4,
+          1.0
+        ],
+        "operating": [
+          1.0,
+          2.4
+        ],
+        "working_capital": [
+          0.3,
+          0.7
+        ],
+        "contingency": [
+          0.3,
+          0.9
+        ]
+      },
+      "total_cad_m": [
+        2.0,
+        5.0
+      ]
+    },
+    {
+      "id": "nanomachines",
+      "name": "Newfoundland Nanomachines",
+      "plan": "companies/02-nanomachines.md",
+      "scope": "Vacuum equipment service, controls retrofits and limited applications capability; no commercial stepper development",
+      "runway_months": [
+        18,
+        24
+      ],
+      "first_paid_customer_months": [
+        6,
+        12
+      ],
+      "costs_cad_m": {
+        "capital": [
+          0.35,
+          1.05
+        ],
+        "operating": [
+          1.15,
+          2.75
+        ],
+        "working_capital": [
+          0.2,
+          0.5
+        ],
+        "contingency": [
+          0.3,
+          0.7
+        ]
+      },
+      "total_cad_m": [
+        2.0,
+        5.0
+      ]
+    },
+    {
+      "id": "chip",
+      "name": "Newfoundland Chip Company",
+      "plan": "companies/03-chip-company.md",
+      "scope": "Fabless FPGA/design/verification services and one small MPW design if justified; no production CPU or DRAM line",
+      "runway_months": [
+        18,
+        24
+      ],
+      "first_paid_customer_months": [
+        6,
+        12
+      ],
+      "costs_cad_m": {
+        "capital": [
+          0.08,
+          0.25
+        ],
+        "operating": [
+          1.12,
+          2.95
+        ],
+        "working_capital": [
+          0.1,
+          0.3
+        ],
+        "contingency": [
+          0.2,
+          0.5
+        ]
+      },
+      "total_cad_m": [
+        1.5,
+        4.0
+      ]
+    },
+    {
+      "id": "foundry",
+      "name": "Newfoundland Foundry",
+      "plan": "companies/04-foundry.md",
+      "scope": "Test, metrology and assembly-support laboratory; no front-end wafer fab in this startup envelope",
+      "runway_months": [
+        24,
+        24
+      ],
+      "first_paid_customer_months": [
+        12,
+        24
+      ],
+      "costs_cad_m": {
+        "capital": [
+          1.6,
+          5.0
+        ],
+        "operating": [
+          1.5,
+          4.7
+        ],
+        "working_capital": [
+          0.7,
+          1.8
+        ],
+        "contingency": [
+          1.2,
+          3.5
+        ]
+      },
+      "total_cad_m": [
+        5.0,
+        15.0
+      ]
+    }
+  ],
+  "shared_feasibility": {
+    "duration_months": [
+      6,
+      12
+    ],
+    "total_cad_m": [
+      0.25,
+      0.75
+    ],
+    "included_in_initial_company_sum": false,
+    "note": "Optional shared discovery program. Reconcile overlapping company diligence spending before a combined fundraising plan."
+  },
+  "later_stages": [
+    {
+      "id": "wafer_finishing",
+      "company": "wafer",
+      "scope": "Selected finishing/reclaim pilot",
+      "cad_m": [
+        15,
+        50
+      ],
+      "years_from_stage_authorization": [
+        2,
+        5
+      ],
+      "cost_open_upper_bound": false,
+      "timing_open_upper_bound": false,
+      "include_in_automatic_program_total": false,
+      "funding_basis": "whole_named_stage_envelope_reconcile_reused_assets"
+    },
+    {
+      "id": "wafer_crystal",
+      "company": "wafer",
+      "scope": "Specialty crystal growth and prime wafer expansion",
+      "cad_m": [
+        100,
+        500
+      ],
+      "years_from_stage_authorization": [
+        5,
+        10
+      ],
+      "cost_open_upper_bound": false,
+      "timing_open_upper_bound": false,
+      "include_in_automatic_program_total": false,
+      "funding_basis": "whole_named_stage_envelope_reconcile_reused_assets"
+    },
+    {
+      "id": "wafer_integrated",
+      "company": "wafer",
+      "scope": "Potential mine, refining and wafer program with industrial partners",
+      "cad_m": [
+        1000,
+        5000
+      ],
+      "years_from_stage_authorization": [
+        10,
+        20
+      ],
+      "cost_open_upper_bound": true,
+      "timing_open_upper_bound": true,
+      "include_in_automatic_program_total": false,
+      "funding_basis": "whole_named_stage_envelope_reconcile_reused_assets"
+    },
+    {
+      "id": "equipment_rd",
+      "company": "nanomachines",
+      "scope": "One R&D deposition platform",
+      "cad_m": [
+        8,
+        25
+      ],
+      "years_from_stage_authorization": [
+        3,
+        5
+      ],
+      "cost_open_upper_bound": false,
+      "timing_open_upper_bound": false,
+      "include_in_automatic_program_total": false,
+      "funding_basis": "whole_named_stage_envelope_reconcile_reused_assets"
+    },
+    {
+      "id": "equipment_production",
+      "company": "nanomachines",
+      "scope": "One qualified specialty production platform",
+      "cad_m": [
+        30,
+        100
+      ],
+      "years_from_stage_authorization": [
+        5,
+        10
+      ],
+      "cost_open_upper_bound": true,
+      "timing_open_upper_bound": false,
+      "include_in_automatic_program_total": false,
+      "funding_basis": "whole_named_stage_envelope_reconcile_reused_assets"
+    },
+    {
+      "id": "lithography_feasibility",
+      "company": "nanomachines",
+      "scope": "Partner-led feasibility and demonstrators only; no commercial stepper",
+      "cad_m": [
+        2,
+        10
+      ],
+      "years_from_stage_authorization": [
+        2,
+        3
+      ],
+      "cost_open_upper_bound": false,
+      "timing_open_upper_bound": false,
+      "include_in_automatic_program_total": false,
+      "funding_basis": "whole_named_stage_envelope_reconcile_reused_assets"
+    },
+    {
+      "id": "chip_product",
+      "company": "chip",
+      "scope": "Qualified niche ASIC product, additional product-program funding",
+      "cad_m": [
+        5,
+        20
+      ],
+      "years_from_stage_authorization": [
+        2,
+        4
+      ],
+      "cost_open_upper_bound": false,
+      "timing_open_upper_bound": false,
+      "include_in_automatic_program_total": false,
+      "funding_basis": "additional_product_program_funding"
+    },
+    {
+      "id": "chip_portfolio",
+      "company": "chip",
+      "scope": "Multiple products or more capable CPU/SoC program",
+      "cad_m": [
+        25,
+        100
+      ],
+      "years_from_stage_authorization": [
+        4,
+        8
+      ],
+      "cost_open_upper_bound": true,
+      "timing_open_upper_bound": false,
+      "include_in_automatic_program_total": false,
+      "funding_basis": "additional_product_program_funding"
+    },
+    {
+      "id": "foundry_pilot",
+      "company": "foundry",
+      "scope": "Limited research/pilot microfabrication, not an assumed complete CMOS line",
+      "cad_m": [
+        50,
+        200
+      ],
+      "years_from_stage_authorization": [
+        4,
+        8
+      ],
+      "cost_open_upper_bound": false,
+      "timing_open_upper_bound": false,
+      "include_in_automatic_program_total": false,
+      "funding_basis": "whole_named_stage_envelope_reconcile_reused_assets"
+    },
+    {
+      "id": "foundry_specialty",
+      "company": "foundry",
+      "scope": "Selected 150/200 mm specialty commercial fab",
+      "cad_m": [
+        1000,
+        3000
+      ],
+      "years_from_stage_authorization": [
+        6,
+        10
+      ],
+      "cost_open_upper_bound": false,
+      "timing_open_upper_bound": false,
+      "include_in_automatic_program_total": false,
+      "funding_basis": "whole_named_stage_envelope_reconcile_reused_assets"
+    },
+    {
+      "id": "foundry_dram",
+      "company": "foundry",
+      "scope": "Separate advanced DRAM partnership; excluded from baseline",
+      "cad_m": [
+        15000,
+        40000
+      ],
+      "years_from_stage_authorization": [
+        8,
+        15
+      ],
+      "cost_open_upper_bound": true,
+      "timing_open_upper_bound": true,
+      "include_in_automatic_program_total": false,
+      "funding_basis": "whole_named_stage_envelope_reconcile_reused_assets"
+    }
+  ],
+  "later_stage_warning": "Never total this list: stages overlap, compete, replace assets, and can require additional facilities or technology. An open upper bound is not a maximum. Reconcile a selected scope before calculating a program total.",
+  "sensitivity_example": {
+    "illustrative_annual_inflation": 0.025,
+    "not_a_forecast": true,
+    "note": "Generic price-level sensitivity only; specialized equipment, currencies and technology costs do not follow one assumed inflation rate."
+  }
+}

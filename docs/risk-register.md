@@ -1,0 +1,26 @@
+# Initial risk register
+
+**Status:** Original planning assessment, 21 October 2026. These are unresolved risks and proposed responses, not findings that an operating company has failed. All owner roles are unassigned. Assess probability and financial exposure after evidence exists; no numerical risk scores have been invented.
+
+| ID | Uncertainty or failure mode | Why it matters | Evidence or trigger | Proposed response / owner |
+| --- | --- | --- | --- | --- |
+| R01 | Grey River quartz is unsuitable or uneconomic | An upstream plant may have no qualified feedstock | Independent representative assays, processing recovery and delivered-cost comparison | Preserve imported feedstock option; geology/materials lead |
+| R02 | Mineral tenure, land access or sampling rights unavailable | Public descriptions do not grant access | Current title/access review and permission for proposed work | Do not commit extraction spending without rights; project/legal lead |
+| R03 | Four businesses rely on each other as hypothetical customers | Circular demand can hide an unviable cluster | External paid pilots and independent customer pipeline | Require external validation for each company; commercial leads |
+| R04 | Insufficient demand or poor customer willingness to pay | Equipment utilization and margins fall | Rejected proposals, competitor quotes, realized sales and payment delays | Narrow offering; use outside manufacturing; commercial/finance leads |
+| R05 | Experienced technical leaders cannot be recruited | Designs, tools and process transfers can fail despite capital | Signed hiring commitments and demonstrated production experience | Begin with services and training; fund expertise before facilities; company leads |
+| R06 | Grid capacity, power quality, water or effluent capacity cannot be secured | Production cannot be operated or qualified reliably | Utility feasibility studies and service commitments | Compare sites and lower-intensity scopes; facilities lead |
+| R07 | Environmental/community issues make a site or extraction plan unacceptable | A project may require redesign, relocation or stopping | Baseline studies, rights-holder and community engagement, regulator decisions | Engage before site lock-in; compare alternatives; project lead |
+| R08 | Process, PDK, patents or equipment support rights unavailable | Owned equipment is not a usable process | Written licenses, commercial PDK/tool access, process-transfer contract | Change process/product or retain external fabrication; technical/legal leads |
+| R09 | Capital and ramp costs exceed broad screening estimates | Cash can run out before qualification | Independent engineering, vendor bids, monthly cash model, downside case | Increase verified financing or reduce scope before commitment; finance lead |
+| R10 | Yield or contamination control fails | Cost per accepted device becomes uncompetitive | Lot-level metrology, customer failures, process capability and yield trend | Continue bounded pilot; diagnose before scaling; process/quality leads |
+| R11 | Field support and spare-parts logistics are inadequate | Tools and factories lose uptime; warranty costs grow | Service response records, supplier lead times, downtime model | Stock justified spares and partner for coverage; operations lead |
+| R12 | One large customer or funder changes plans | Revenue or financing disappears | Customer concentration, contract terms and milestones | Diversify and model cancellation exposure; commercial/finance leads |
+| R13 | Memory competition or technology changes invalidate a fixed roadmap | A 2026 product assumption may be obsolete before a plant opens | Updated customer benchmarks and cost-per-good-device comparisons | Refresh the product thesis at every gate; product lead |
+| R14 | Grants or tax support are assumed before approval | Financing gap is disguised | Signed award agreement, eligible scope and payment schedule | Base case remains zero until documented; finance lead |
+| R15 | Imported components, equipment or technology face supply/export limits | Delivery or commercial access may fail | Product/jurisdiction-specific supplier and professional review | Identify qualified alternatives and adjust schedules; procurement/legal leads |
+| R16 | Local-content claims overstate actual fabrication | Public trust and commercial credibility suffer | Traceable design, wafer, fabrication, package and assembly origin | Report each activity separately; evidence editor |
+| R17 | Publication exposes confidential or restricted material | Contributors lack the right to share it | Rights register and publication consent | Publish original summaries or public links with clear limits; evidence/legal leads |
+| R18 | Facilities cannot safely handle the selected industrial processes | A proposed process cannot proceed responsibly | Qualified process/facility review, emergency capability and approved operating systems | Keep this repository at planning scope until professional designs exist; operations lead |
+
+The linked [company plans](../README.md#four-companies), [local feasibility](local-feasibility.md), and [decision gates](roadmap.md) define the investigations behind these responses. No one should interpret a closed GitHub issue as regulatory, safety, or customer approval.
